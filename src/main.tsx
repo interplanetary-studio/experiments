@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import { ObjectScene } from "./scenes/ObjectScene";
 
 const App = () => {
   return (
-    <header className="h-full flex flex-col justify-center items-center">
-      <h1 className="text-4xl">Hello World</h1>
-    </header>
+    <section className="h-full flex flex-col justify-center items-center bg-white">
+      <ObjectScene />
+    </section>
   );
 };
 
